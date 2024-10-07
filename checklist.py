@@ -111,7 +111,12 @@ def user_input(prompt):
     user_input = input(prompt)
     return user_input
 
- 
+running = True
+while running:
+    selection = user_input(
+        "Press C to add to list, R to Read from list and P to display list")
+    select(selection)
+
 
 
 
